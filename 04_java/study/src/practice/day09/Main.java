@@ -28,7 +28,7 @@ public class Main {
                     DollQueueManager.registerCustomer(RandomCustomerProvider.getRandomCustomer());
                     break;
                 case 2:
-                    dqm.processNextCustomer();
+//                    dqm.processNextCustomer();
                     break;
                 case 3:
                     dqm.showWaitingList();
